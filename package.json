@@ -1,0 +1,19 @@
+{
+  "description": "GD 431 Project 4",
+  "private": true,
+  "engines": {
+    "node": "10.x"
+  },
+  "scripts": {
+    "sass": "sass --no-source-map --style=compressed src/sass/styles.scss:src/css/styles.css",
+    "watch:eleventy": "eleventy --serve",
+    "watch:sass": "npm run sass -- --watch",
+    "start": "npm-run-all sass --parallel watch:*",
+    "build": "npm run sass && eleventy"
+  },
+  "dependencies": {
+    "npm-run-all": "^4.1.5",
+    "@11ty/eleventy": "^0.11.1",
+    "sass": "^1.27.2"
+  }
+}
