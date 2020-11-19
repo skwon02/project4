@@ -29,3 +29,28 @@
     padding: 10%;
     text-align: center;
 }
+.register{
+    width: 100%;
+    background-color: $color-lgreen;
+    border: 1.5px solid black;
+    padding: 10%;
+    h2{
+        text-align: center;
+    }
+}
+
+.contact{
+    width: 100%;
+    background-color: $color-lblue;
+    border: 1.5px solid black;
+    padding: 10%;
+    h2{
+        text-align: center;
+    }
+    iframe{
+        width: 50%;
+        height: 450px;
+        frameborder:0;
+        style="border:0;"
+    }
+}
