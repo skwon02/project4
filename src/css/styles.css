@@ -1,9 +1,9 @@
 /* Error: expected "{".
  *    ,
- * 15 | .dance
+ * 16 |     wi
  *    |       ^
  *    '
- *   src/sass/components/_home.scss 15:7       @import
+ *   src/sass/components/_home.scss 16:7       @import
  *   src/sass/components/_components.scss 2:9  @import
  *   src/sass/styles.scss 5:1                  root stylesheet */
 
@@ -15,5 +15,5 @@ body::before {
   padding: 1em;
   margin-bottom: 1em;
   border-bottom: 2px solid black;
-  content: 'Error: expected "{".\a    \2577 \a 15 \2502  .dance\a    \2502        ^\a    \2575 \a   src/sass/components/_home.scss 15:7       @import\a   src/sass/components/_components.scss 2:9  @import\a   src/sass/styles.scss 5:1                  root stylesheet';
+  content: 'Error: expected "{".\a    \2577 \a 16 \2502      wi\a    \2502        ^\a    \2575 \a   src/sass/components/_home.scss 16:7       @import\a   src/sass/components/_components.scss 2:9  @import\a   src/sass/styles.scss 5:1                  root stylesheet';
 }
