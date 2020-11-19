@@ -17,25 +17,21 @@
     padding: 1% 5%;
     margin: 0.5%;
     transition: all 300ms ease-in-out;
-}
-
-.button:hover,
-.button:focus {
-    background: white;
-    color: black;
-}
+    &:hover, &:focus{
+        background: white;
+        color: black;
+    }
+}   
 
 .button-submit {
     border: 1px solid black;
     border-radius: 60px;
     color: black;
     font-size: 1em;
-    padding: 10px 10%;
+    padding: 1% 5%;
     transition: all 300ms ease-in-out;
-}
-
-.button-submit:hover,
-.button-submit:focus {
-    background: black;
+    &:hover, &:focus{
+        background: black;
     color: white;
+    }
 }
