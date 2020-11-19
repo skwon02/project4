@@ -2,8 +2,9 @@
     background-color: $color-black;
   
     ul {
-      display: flex;
-      justify-content: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
   
     li {
@@ -14,10 +15,21 @@
         }
       }
     }
-    // li:nth-child(5){
-    //     display: flex;
-    //     justify-content: flex-end;
-    // }
+    li:nth-child(1){
+        display: flex;
+        margin-right: auto;
+        color: $color-black;
+        display: inline-block;
+        font-family: $font-mono;
+        font-size: 16px;
+        text-decoration: none;
+        -webkit-text-stroke: 1px rgba(white, 22%);
+    }
+
+    li:nth-child(6){
+        display: flex;
+        margin-left: auto;
+    }
   
     a {
       color: $color-white;
