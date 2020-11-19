@@ -1,3 +1,40 @@
 .site-nav {
     background-color: $color-black;
-}
+  
+    ul {
+      display: flex;
+      justify-content: flex-end;
+    }
+  
+    li {
+      border-bottom: 5px solid $color-yellow;
+  
+      +li {
+        a {
+          margin-left: 8px;
+        }
+      }
+    }
+  
+    a {
+      border-bottom: 2px dashed transparent;
+      color: $color-text-body;
+      display: block;
+      font-family: $font-mono;
+      margin-bottom: -3px;
+      padding: 12px;
+      text-decoration: none;
+      transition: $transition-default;
+  
+      &:hover,
+      &:focus {
+        border-bottom-color: rgba($color-slate, 70%);
+      }
+    }
+  
+    [aria-current] a {
+      border-bottom-color: $color-slate;
+      cursor: default;
+    }
+  }
+  
