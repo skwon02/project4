@@ -18,10 +18,6 @@
     li:nth-child(1){
         display: flex;
         margin-right: auto;
-        color: $color-black;
-        display: inline-block;
-        font-family: $font-mono;
-        font-size: 16px;
         text-decoration: none;
         -webkit-text-stroke: 1px rgba(white, 22%);
     }
@@ -45,6 +41,11 @@
         color: $color-red;
       }
     }
+    a:nth-child(1){
+        font-family: $font-mono;
+        display: inline-block;
+    }
+    
   
     // [aria-current] a {
     //   border-bottom-color: $color-black;
