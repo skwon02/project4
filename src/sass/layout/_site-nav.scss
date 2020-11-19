@@ -3,38 +3,35 @@
   
     ul {
       display: flex;
-      justify-content: flex-end;
+      justify-content: center;
     }
   
     li {
-      border-bottom: 5px solid $color-yellow;
   
       +li {
         a {
-          margin-left: 8px;
+          margin-left: 50px;
         }
       }
     }
   
     a {
-      border-bottom: 2px dashed transparent;
-      color: $color-text-body;
+      color: $color-white;
       display: block;
-      font-family: $font-mono;
+      font-family: $font-body;
       margin-bottom: -3px;
       padding: 12px;
       text-decoration: none;
-      transition: $transition-default;
   
       &:hover,
       &:focus {
-        border-bottom-color: rgba($color-slate, 70%);
+        color: $color-red;
       }
     }
   
-    [aria-current] a {
-      border-bottom-color: $color-slate;
-      cursor: default;
-    }
+    // [aria-current] a {
+    //   border-bottom-color: $color-black;
+    //   cursor: default;
+    // }
   }
   
