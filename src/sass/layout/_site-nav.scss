@@ -14,13 +14,17 @@
         }
       }
     }
+    // li:nth-child(5){
+    //     display: flex;
+    //     justify-content: flex-end;
+    // }
   
     a {
       color: $color-white;
       display: block;
       font-family: $font-body;
       margin-bottom: -3px;
-      padding: 12px;
+      padding: 25px;
       text-decoration: none;
   
       &:hover,
