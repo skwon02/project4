@@ -15,5 +15,15 @@
 .about{
     width: 100%;
     background-color: $color-lblue;
-    border: 1px solid black;
+    border: 1.5px solid black;
+
+    h2{
+        padding-left: 10%;
+    }
+    p{
+        padding: 0 10%;
+    }
+    .more {
+        padding-left: 10%;
+    }
 }
