@@ -14,10 +14,19 @@
 
 .about{
     width: 100%;
-    background-color: $color-lblue;
-    border: 1.5px solid black;
-   
 }
 .text{
+    background-color: $color-lblue;
+    border: 1.5px solid black;
     padding: 30% 10%;
+}
+
+.offerings{
+    // position: relative;
+    margin:0;
+    background-color: $color-lgreen;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    padding: 10%;
+    text-align: center;
 }
