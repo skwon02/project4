@@ -57,3 +57,93 @@ img{
 
     }
 }
+
+.grid li img {
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+.grid li {
+    border: 1.5px solid black;
+    list-style: none;
+    position: relative;
+}
+
+.grid li h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFFFFF
+}
+.grid {
+    padding: 0;
+    margin: 0;
+    border: 2px solid black;
+    display: grid;
+    grid-template-rows: repeat(7, auto);
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas:
+        "offerings offerings"
+        "ballet modern "
+        "pointe modern"
+        "tap hip"
+        "jazz african"
+        "little repertory"
+        "little adult";
+}
+
+.offerings {
+    grid-area: offerings;
+}
+
+.ballet {
+    background-color: #3275e1;
+    grid-area: ballet;
+}
+
+.pointe {
+    background-color: #192753;
+    grid-area: pointe;
+}
+
+.modern {
+    background-color: #192753;
+    background-color: #24504F;
+    grid-area: modern;
+}
+
+.tap {
+    background-color: #192753;
+    grid-area: tap;
+}
+
+.jazz {
+    background-color: #24504F;
+    grid-area: jazz;
+}
+
+.hip {
+    background-color: #3275e1;
+    grid-area: hip;
+}
+
+.african {
+    background-color: #192753;
+    grid-area: african;
+}
+
+.little {
+    background-color: #3275e1;
+    grid-area: little;
+}
+
+.repertory {
+    background-color: #192753;
+    grid-area: repertory;
+}
+
+.adult {
+    background-color: #24504F;
+    grid-area: adult;
+}
