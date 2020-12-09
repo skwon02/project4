@@ -69,12 +69,12 @@ img{
     position: relative;
 }
 
-.grid li h2 {
+.grid li h3{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #FFFFFF
+    color: #ffffff
 }
 .grid {
     padding: 0;
@@ -98,52 +98,52 @@ img{
 }
 
 .ballet {
-    background-color: #3275e1;
+    background-color: $color-lblue;
     grid-area: ballet;
 }
 
 .pointe {
-    background-color: #192753;
+    background-color: $color-dblue;
     grid-area: pointe;
 }
 
 .modern {
-    background-color: #192753;
-    background-color: #24504F;
+    background-color: $color-dblue;
+    background-color: $color-dgreen;
     grid-area: modern;
 }
 
 .tap {
-    background-color: #192753;
+    background-color: $color-dblue;
     grid-area: tap;
 }
 
 .jazz {
-    background-color: #24504F;
+    background-color: $color-dgreen;
     grid-area: jazz;
 }
 
 .hip {
-    background-color: #3275e1;
+    background-color: $color-lblue;
     grid-area: hip;
 }
 
 .african {
-    background-color: #192753;
+    background-color: $color-dblue;
     grid-area: african;
 }
 
 .little {
-    background-color: #3275e1;
+    background-color: $color-lblue;
     grid-area: little;
 }
 
 .repertory {
-    background-color: #192753;
+    background-color: $color-dblue;
     grid-area: repertory;
 }
 
 .adult {
-    background-color: #24504F;
+    background-color: $color-dgreen;
     grid-area: adult;
 }
