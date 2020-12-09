@@ -1,10 +1,15 @@
+.start{
+    text-align: center;
+}
 .start img{
     width: 100%;
 }
 .start h2{
     color: white;
-    position: absolute;
-    margin: auto;
+    position: absolute; 
+    // margin: 0 auto;
+    // padding: 50px 0;
+    
 }
 .about{
     background-color: $color-lblue;
