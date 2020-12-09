@@ -1,0 +1,30 @@
+.menu-icon {
+    &__line {
+      background-color: #444;
+      height: 2px;
+      margin: 8px auto;
+      transition: all 260ms ease-in-out;
+      width: 42px;
+    }
+  }
+  
+  // when the button is clicked, update the look of the lines
+  [aria-expanded="true"] {
+    .menu-icon__line {
+      $yValue: 10px;
+      $deg: 45deg;
+  
+      &:nth-child(1) {
+        transform: translateY($yValue) rotate($deg);
+      }
+  
+      &:nth-child(2) {
+        opacity: 0;
+      }
+  
+      &:nth-child(3) {
+        transform: translateY(-$yValue) rotate(-$deg);
+      }
+    }
+  }
+  

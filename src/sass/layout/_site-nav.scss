@@ -1,4 +1,29 @@
 .site-nav {
+  
+  >button {
+
+
+    // Effects for viewports LESS THAN 600px wide
+    @media (max-width: 599px) {
+
+      // If the JS does not load, do not display the button
+      &:not([aria-expanded]) {
+        display: none;
+      }
+
+      // Do not display the menu when the button has NOT been clicked
+      &[aria-expanded="false"]+ul {
+        display: none;
+      }
+    }
+
+    // Effects for viewports 600px or MORE
+    @media (min-width: 600px) {
+      // Do not display the button at this width
+      display: none;
+    }
+  }
+  
     background-color: $color-black;
   
     ul {
