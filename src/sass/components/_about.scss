@@ -1,11 +1,10 @@
 .start img{
     width: 100%;
-    position: relative;
 }
 .start h2{
     color: white;
-    position: relative;
-    margin: 0 auto;
+    position: absolute;
+    margin: auto;
 }
 .about{
     background-color: $color-lblue;
