@@ -1,13 +1,17 @@
 .start{
     text-align: center;
+    margin: 0 auto;
+    // position: relative;
 }
 .start img{
     width: 100%;
+    display: block;
+    
 }
 .start h2{
     color: white;
     position: absolute; 
-    // margin: 0 auto;
+    
     // padding: 50px 0;
     
 }
