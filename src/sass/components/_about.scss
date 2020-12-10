@@ -1,10 +1,10 @@
 .start{
-    // text-align: center;
+    text-align: -webkit-match-parent;
+    position: relative;
     // margin: 0 auto;
     img{
         width: 100%;
-        display: block;
-        // position: relative;
+        display: block; 
     }
     h2{
         color: white;
@@ -25,7 +25,14 @@
         margin: 0 auto;
     }
 }
-
-img{
-    
+.teachers{
+    padding: 10% 0;
+    border: 1.5px solid black;
+    text-align: center;
+    background-color: $color-lgreen;
+}
+.profile {
+    img{
+        width:30%;
+    }
 }
