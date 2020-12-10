@@ -148,3 +148,12 @@
     background-color: $color-dgreen;
     grid-area: adult;
 }
+
+button svg {
+    height: 1em;
+  }
+  
+[aria-expanded="true"] .vert {
+    display: none;
+  }
+  
