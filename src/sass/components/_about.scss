@@ -25,14 +25,21 @@
         margin: 0 auto;
     }
 }
-.teachers{
-    padding: 10% 0;
-    border: 1.5px solid black;
-    text-align: center;
+.profile1{
+    background-color: $color-lblue;
+}
+.profile2{
+    background-color: $color-dblue;
+}
+.profile3{
+    background-color: $color-dgreen;
+}
+.profile4{
     background-color: $color-lgreen;
 }
-.profile {
-    img{
-        width:30%;
-    }
+
+.testimonials{
+    background-color: $color-lblue;
+    padding: 10%;
+    text-align: center;
 }
