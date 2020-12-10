@@ -14,7 +14,9 @@
 .h_about{
     background-color: $color-lblue;
     overflow: auto;
-    
+    div{
+        padding: 20% 10%;
+    }
     img{
         float: right;
         width: 100%;
