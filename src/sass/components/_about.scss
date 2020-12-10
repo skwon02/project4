@@ -1,27 +1,31 @@
 .start{
-    text-align: center;
-    margin: 0 auto;
-    // position: relative;
-}
-.start img{
-    width: 100%;
-    display: block;
-    
-}
-.start h2{
-    color: white;
-    position: absolute; 
-    
-    // padding: 50px 0;
-    
+    // text-align: center;
+    // margin: 0 auto;
+    img{
+        width: 100%;
+        display: block;
+        // position: relative;
+    }
+    h2{
+        color: white;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
 }
 .about{
     background-color: $color-lblue;
     padding: 1em;
+
+    p{
+        width: 85%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin: 0 auto;
+    }
 }
-.about p{
-    width: 85%;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin: 0 auto;
+
+img{
+    
 }
