@@ -1,7 +1,7 @@
 .site-footer {
     background-color: black;
     color: white;
-    padding: 10%;
+    padding: 3em;
 
     ul {
         padding: 0;
@@ -28,8 +28,12 @@ h2 {
             display: flex;
             flex-flow: wrap;
         }
-        h2, ul:not(#tel){
-            width:20%;
+        h2{
+            width: 20%;
+        } 
+        
+        ul:not(#tel){
+            width:33.3%;
         }
     }
 }
