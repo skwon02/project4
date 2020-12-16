@@ -4,7 +4,7 @@
 
 
     // Effects for viewports LESS THAN 600px wide
-    @media (max-width: 599px) {
+    @media (max-width: 899px) {
 
       // If the JS does not load, do not display the button
       &:not([aria-expanded]) {
@@ -18,7 +18,7 @@
     }
 
     // Effects for viewports 600px or MORE
-    @media (min-width: 600px) {
+    @media (min-width: 900px) {
       // Do not display the button at this width
       display: none;
     }
