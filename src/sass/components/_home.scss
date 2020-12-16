@@ -16,7 +16,6 @@
     div{   
         background-color: $color-lblue;
         width: 100%;
-        padding: 30% 10%;
     }
     img{
         display: block;
@@ -27,7 +26,6 @@
 }
 
 .offerings{
-    // position: relative;
     margin:0;
     background-color: $color-lgreen;
     border: 1.5px solid #000000;
@@ -83,11 +81,11 @@ button svg {
 
 @media (min-width: 900px){
     .h_about{
-        div, .about{
-         width: 50%;
-         left: 0;
-         transform: translate(0, 0px);
-        //  display: inline-block; 
+        display: flex;
+        div, img{
+            width: 50%;
+            // display: inline-block;
+            // float: left;
         }
     }
 }
