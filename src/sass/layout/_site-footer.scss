@@ -1,24 +1,24 @@
 .site-footer {
     background-color: black;
-    color:white;
+    color: white;
     padding: 10%;
-    ul{
+
+    ul {
         padding: 0;
+        li {
+            list-style: none;
+            margin: 0;
+            a {
+                color: white;
+            }
+        }
+        li:nth-child(1) {
+            font-weight: 700;
+        }
 
     }
-    li{
-        list-style: none;
-        margin: 0;
-        padding-left: 0;
-    }
-    li:nth-child(1) {
-        font-weight: 700;
-     }
-    a {
-         color: white;
-     }
 }
 
-h2{
+h2 {
     font-family: $font-mono;
 }
