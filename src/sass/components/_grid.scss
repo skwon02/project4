@@ -103,14 +103,17 @@ button svg {
 
 @media (min-width: 900px) {
     .grid {
-        grid-template-rows: repeat(auto, auto);
+        grid-template-rows: repeat(4, auto);
         grid-template-columns: repeat(4, 1fr);
-         grid-template-areas:
-        "offerings offerings offerings pointe "
-        "ballet modern pointe"
-        "tap hip jazz"
-        "african"
-        "little repertory"
-        "little adult";
+        grid-template-areas:
+        "offerings offerings offerings modern"
+        "ballet pointe pointe modern"
+        "tap hip jazz african"
+        "little repertory repertory adult";
+    }
+    .ballet, .adult {
+        display: flex;
+        img{
+            object-fit: cover;}
     }
   }

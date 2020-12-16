@@ -19,3 +19,10 @@ input {
       }
     }
   }
+
+
+  @media (min-width: 900px) {
+  input{
+    display: flex;
+  }
+}
