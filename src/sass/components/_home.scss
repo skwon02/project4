@@ -82,3 +82,11 @@ button svg {
 }
 
 
+@media (min-width: 900px){
+    .h_about{
+        div, .about{
+         width: 50%;
+         display: inline-block; 
+        }
+    }
+}

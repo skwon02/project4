@@ -25,9 +25,8 @@ input {
   input{
     display: inline-block;
     margin: 1%;
-    div:not(#message) {
-      width: 47%;
-    }
-    
+  }
+  input:not(#message) {
+    width: 47%;
   }
 }
