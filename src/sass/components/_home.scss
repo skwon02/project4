@@ -12,10 +12,15 @@
     height: 100%;
 }
 .h_about{
-    overflow: auto;
+    display: flex;
+    flex-flow: column;
     div{   
         background-color: $color-lblue;
         width: 100%;
+        h2, p, button {
+            width: 80%;
+            margin: 0 auto;
+        }
     }
     img{
         display: block;
@@ -81,7 +86,7 @@ button svg {
 
 @media (min-width: 900px){
     .h_about{
-        display: flex;
+
         div, img{
             width: 50%;
             // display: inline-block;
