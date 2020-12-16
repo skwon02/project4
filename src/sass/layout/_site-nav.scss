@@ -1,5 +1,5 @@
 .site-nav {
-  position: relative;
+
   >button {
 
 
@@ -78,3 +78,6 @@
     // }
   }
   
+.site-nav, .js-toggle-menu{
+    position: relative;
+  }
