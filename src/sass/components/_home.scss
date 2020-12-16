@@ -64,7 +64,13 @@
     padding: 0;
     text-align: inherit;
   }
-  
+
+.js-accordion{
+    div{
+        border-width: 2px 0 0 0;
+    }
+}
+
 button svg {
     height: 1em;
   }
