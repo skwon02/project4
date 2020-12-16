@@ -137,9 +137,13 @@
 .little {
     background-color: $color-lblue;
     grid-area: little;
-    
 }
+.little, .modern{
+    display: flex;
+    img{
+        object-fit: cover;}
 
+}
 .repertory {
     background-color: $color-dblue;
     grid-area: repertory;
