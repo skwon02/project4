@@ -1,6 +1,6 @@
 input {
     margin: 20px 0;
-    width: 350px;
+    width: 100%;
     display: block;
     border: none;
     // padding: 25px 0 0 0;
@@ -23,6 +23,11 @@ input {
 
   @media (min-width: 900px) {
   input{
-    display: flex;
+    display: inline-block;
+    margin: 1%;
+    div:not(#message) {
+      width: 47%;
+    }
+    
   }
 }
