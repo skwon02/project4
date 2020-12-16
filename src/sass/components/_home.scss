@@ -15,14 +15,17 @@
     display: flex;
     flex-flow: wrap;
     div{   
+        align-items: center;
+        align-content: center;
+        justify-content: center;
         background-color: $color-lblue;
         width: 100%;
         display: flex;
         flex-flow: wrap;
         border: 1.5px solid black;
+        padding: 3em 0 4em 0;
         h2, p, button {
             width: 80%;
-            // margin: 1em auto;
             display: block;
         }
     }
