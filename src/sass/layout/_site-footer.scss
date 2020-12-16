@@ -19,4 +19,14 @@ h2 {
     font-family: $font-mono;
 }
 
-@mde
+@media (min-width:900px) {
+    ul{
+        display:inline-flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        li{
+            
+        }
+    }
+    
+}
