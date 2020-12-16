@@ -3,7 +3,7 @@
     // Get the accordion container
     const accordion = document.querySelector(".js-accordion");
     // Within that, identify the headings
-    const headings = accordion.querySelectorAll("h2");
+    const headings = accordion.querySelectorAll("h3");
   
     // The content toggle function
     const toggleContent = (trigger) => {
