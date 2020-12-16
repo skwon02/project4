@@ -13,13 +13,17 @@
 }
 .h_about{
     display: flex;
-    flex-flow: column;
+    flex-flow: wrap;
     div{   
         background-color: $color-lblue;
         width: 100%;
+        display: flex;
+        flex-flow: wrap;
+        border: 1.5px solid black;
         h2, p, button {
             width: 80%;
-            margin: 0 auto;
+            // margin: 1em auto;
+            display: block;
         }
     }
     img{
@@ -33,7 +37,7 @@
 .offerings{
     margin:0;
     background-color: $color-lgreen;
-    border: 1.5px solid #000000;
+    border: 1.5px solid black;
     padding: 10%;
     text-align: center;
 }
@@ -86,11 +90,8 @@ button svg {
 
 @media (min-width: 900px){
     .h_about{
-
         div, img{
             width: 50%;
-            // display: inline-block;
-            // float: left;
         }
     }
 }
