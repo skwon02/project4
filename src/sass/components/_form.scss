@@ -1,5 +1,4 @@
 input {
-    // margin: 40px 25px;
     width: 350px;
     display: block;
     border: none;
@@ -7,17 +6,14 @@ input {
     border-bottom: solid 1px black;
     transition: all 0.3s cubic-bezier(.64,.09,.08,1);
     background: linear-gradient(to bottom, rgba(255,255,255,0) 96%, black 4%);
-    background-position: -200px 0;
-    // background-size: 200px 100%;
-    // background-repeat: no-repeat;
-    color: darken ($color-dgreen, 20%);
     &:focus, &:valid {
       box-shadow: none;
       outline: none;
       background-position: 0 0;
       &::-webkit-input-placeholder {
         color: black;
-        font-size: 12px;
+        font-family: "space grotesk", san-serif;
+        // font-size: 12px;
         transform: translateY(-20px);
         visibility: visible !important;
       }
