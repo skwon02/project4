@@ -20,13 +20,16 @@ h2 {
 }
 
 @media (min-width:900px) {
-    ul{
-        display:inline-flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        li{
-            
-        }
+    .site-footer{
+        display: flex;
+        flex-flow: wrap;
+        flex-direction: column;
+    }
+    h2, ul{
+        background-color: $color-lblue;
+        width: 20%;
+        display: flex;
+        flex-flow: wrap;
     }
     
 }
