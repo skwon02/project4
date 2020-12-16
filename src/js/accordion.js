@@ -1,7 +1,7 @@
 // In this script, the accordion sections operate independently and can all be open at once
 (function() {
     // Get all the H2 headings
-    const headings = document.querySelectorAll(".js-accordion h2");
+    const headings = document.querySelectorAll(".js-accordion h3");
   
     for (let heading of headings) {
       // Create button element
