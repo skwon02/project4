@@ -51,8 +51,20 @@
     width: 100%;
     background-color: $color-lgreen;
     padding: 10%;
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     h2{
         text-align: center;
+    }
+    .js-accordion{
+        width: 100%;
+        div{
+            border: solid black;
+            border-width: 2px 0;
+        }
     }
 }
 .u-button-reset {
@@ -66,12 +78,7 @@
     text-align: inherit;
   }
 
-.js-accordion{
-    div{
-        border: solid black;
-        border-width: 2px 0;
-    }
-}
+
 
 button svg {
     height: 1em;
@@ -105,4 +112,5 @@ button svg {
             width: 50%;
         }
     }
+    
 }
