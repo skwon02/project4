@@ -1,11 +1,15 @@
 .grid li img {
     width: 100%;
     border-radius: 50%;
+    &:hover, &:focus {
+        opacity: 0.5;
+    }
 }
 .grid li {
     border: 1px solid black;
     list-style: none;
     position: relative;
+
 }
 
 .grid li h3{
