@@ -1,3 +1,20 @@
 {
-  "name": "Morton Street Dance Center"
+  "name": "Morton Street Dance Center",
+  "slides": [{
+    "title": "Heads of State",
+    "img": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/39377/heads-of-state--original.jpg",
+    "alt": "Two male figures in bathing costumes stand behind a wall on a cryptically doodled background."
+  }, {
+    "title": "Astronomy and Movement",
+    "img": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/39377/astronomy--original.jpeg",
+    "alt": "Stark photomontage with jagged edges and red, yellow, and blue shades."
+  }, {
+    "title": "Mother",
+    "img": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/39377/mother--original.jpg",
+    "alt": "Strange portrait-like montage. The subject is rotund and wears a torturous looking mask."
+  }, {
+    "title": "The Beautiful",
+    "img": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/39377/beautiful-girl--original.jpg",
+    "alt": "Photomontoge of female figures and automobile parts, featuing several instances of the BMW logo."
+  }]
 }
