@@ -7,8 +7,10 @@
     </span>
     Menu
   </button>
+
   <ul id="site-menu" class="u-list-reset">
     {% assign nav = collections.nav | sortByPageOrder %}
+    
     {% for item in nav %}
     <li{% if page.url == item.url %} aria-current="page" {% endif %}>
       <a href="{{ item.url }}">
