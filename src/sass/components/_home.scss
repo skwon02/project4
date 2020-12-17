@@ -50,13 +50,14 @@
 .register{
     width: 100%;
     background-color: $color-lgreen;
+    border: 1.5px solid black;
     padding: 10%;
     display:flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    h2{
+    h2, .register_btn{
         text-align: center;
     }
     .js-accordion{
@@ -93,6 +94,11 @@ button svg {
     background-color: $color-lblue;
     border: 1.5px solid black;
     padding: 10%;
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     h2{
         text-align: center;
     }
@@ -101,6 +107,7 @@ button svg {
         height: 300px;
         border: 1px solid black;
         border-radius: 20px;
+        margin-bottom: 2em;
 
     }
 }
@@ -112,5 +119,7 @@ button svg {
             width: 50%;
         }
     }
-    
+    .register_btn{
+        display: inline-flex;
+    }
 }
