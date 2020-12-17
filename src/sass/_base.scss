@@ -15,7 +15,14 @@ body {
   margin: 0;
   background-color: black;
 }
-
+h1 {
+  font-size: 3em;
+  color: white;
+  font-family: $font-mono;
+}
+h2 {
+  font-family: $font-mono;
+}
 // main {
 //   flex: 1 0 auto;
 //   padding: 24px 18px;
