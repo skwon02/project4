@@ -2,14 +2,11 @@
     width: 100%;
     border-radius: 50%;
     transition: filter .5s ease-in-out;
-    -webkit-filter: grayscale(0%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
-    filter: grayscale(0%); /* FF 35+ */
 }
 .grid li {
     border: 1px solid black;
     list-style: none;
     position: relative;
-
 }
 
 .grid li h3{
@@ -112,7 +109,7 @@
     background-color: black;
     p{
         color: white;
-        font-size: 16px;
+        font-size: 1em;
         position: absolute;
         top: 50%;
         left: 50%;
@@ -122,12 +119,18 @@
         text-align: center;
     }
 }
-li:hover .overlay {
-    opacity: 0.7;
-    h3 {
-        display: none;
+li:hover, li:focus {
+    .overlay{
+        opacity: 0.8;
     }
-
+    h3{
+        display: none; 
+    }
+    img{
+        -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+         filter: grayscale(100%); /* FF 35+ */
+    }
+   
   }  
 
 button svg {
