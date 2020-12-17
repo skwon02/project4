@@ -1,6 +1,13 @@
 .grid li img {
     width: 100%;
     border-radius: 50%;
+    transition: filter .5s ease-in-out;
+    -webkit-filter: grayscale(0%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+    filter: grayscale(0%); /* FF 35+ */
+}
+img:hover, img:focus {
+    -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+    filter: grayscale(100%); /* FF 35+ */
 }
 .grid li {
     border: 1px solid black;
@@ -32,6 +39,8 @@
         "jazz african"
         "little repertory"
         "little adult";
+
+        
 }
 
 .offerings {
@@ -107,7 +116,7 @@
     background-color: black;
     p{
         color: white;
-        font-size: 20px;
+        font-size: 16px;
         position: absolute;
         top: 50%;
         left: 50%;
@@ -118,8 +127,9 @@
     }
 }
 li:hover .overlay {
-    opacity: 0.5;
+    opacity: 0.7;
   }  
+
 button svg {
     height: 1em;
   }
