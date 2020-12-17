@@ -1,8 +1,14 @@
 .alt1-styles {
-    background-color: #444;
+    background-color: $color-lblue;
     padding: 36px;
     position: relative;
-  
+    height: 100%;
+
+    h2{
+      color:white;
+      text-align: center;
+    }
+
     figure {
       margin: 0 auto;
       position: relative;
@@ -23,6 +29,7 @@
       bottom: 0;
       width: 80px;
       z-index: 10;
+      display: none;
     }
   
     .button-prev,
@@ -30,11 +37,6 @@
       bottom: 0;
       height: 100%;
       width: 64px;
-  
-      &:hover,
-      &:focus {
-        background-color: rgba(black, 50%);
-      }
     }
   
     .button-prev {
