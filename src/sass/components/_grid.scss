@@ -5,10 +5,6 @@
     -webkit-filter: grayscale(0%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
     filter: grayscale(0%); /* FF 35+ */
 }
-img:hover, img:focus {
-    -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
-    filter: grayscale(100%); /* FF 35+ */
-}
 .grid li {
     border: 1px solid black;
     list-style: none;
@@ -128,6 +124,10 @@ img:hover, img:focus {
 }
 li:hover .overlay {
     opacity: 0.7;
+    h3 {
+        display: none;
+    }
+
   }  
 
 button svg {
