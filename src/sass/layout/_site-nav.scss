@@ -74,7 +74,14 @@ nav{
       }
     }
     a:nth-child(1){
+        color: yellow;
         font-family: $font-mono;
         display: inline-block;
+    }
+  }
+
+  @media (max-width: 900px) {
+    ul .site-name{
+      visibility: visible;
     }
   }
