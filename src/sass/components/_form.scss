@@ -1,5 +1,4 @@
 input {
-    margin: 20px 0;
     width: 100%;
     display: block;
     border: none;
@@ -22,7 +21,7 @@ input {
 
   @media (min-width: 900px) {
   input{
-    display: inline-flex;
+    display: inline-block;
     margin: 1%;
   }
   input:not(#message) {
