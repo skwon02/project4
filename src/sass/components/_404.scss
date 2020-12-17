@@ -2,9 +2,16 @@ body{
     background-color: black;
     .error{
         display: flex;
-        flex-flow: wrap;
-        h2, p{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        padding-top: 30%;
+        h2, h3, p{
+            text-align: center;
+            width: 80%;
             color: white;
+            display: block;
         }
     }
 }
