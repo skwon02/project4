@@ -111,10 +111,16 @@ button svg {
         "tap hip jazz african"
         "little repertory repertory adult";
     }
+    
     .ballet, .adult {
         display: flex;
         img{
             object-fit: cover;}
     }
-
+    .teacher{
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-areas:
+        "offerings offerings offerings offerings"
+        "profile1 profile2 profile3 profile4";
+    }
   }
