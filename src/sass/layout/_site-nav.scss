@@ -1,13 +1,13 @@
 
 .site-nav {
-
+  display: flex;
+  
   >button {
 
 
     // Effects for viewports LESS THAN 600px wide
     @media (max-width: 899px) {
-      float: right;
-      
+
       // If the JS does not load, do not display the button
       &:not([aria-expanded]) {
         display: none;
