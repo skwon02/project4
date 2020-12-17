@@ -62,6 +62,7 @@
     }
     .js-accordion{
         width: 100%;
+        margin-bottom: 1em;
         div{
             border: solid black;
             border-width: 2px 0;
@@ -79,7 +80,7 @@
     // padding: 1em 0;
     text-align: inherit;
   }
-  
+
 button svg {
     height: 1em;
   }
@@ -104,7 +105,7 @@ button svg {
         height: 300px;
         border: 1px solid black;
         border-radius: 20px;
-        margin-bottom: 2em;
+
     }
     form{
         width: 100%;
