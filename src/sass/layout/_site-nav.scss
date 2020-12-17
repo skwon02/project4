@@ -4,6 +4,7 @@ nav{
     float: right;
   }
 }
+
 .site-nav {
 
   >button {
@@ -76,11 +77,4 @@ nav{
         font-family: $font-mono;
         display: inline-block;
     }
-    
-  
-    // [aria-current] a {
-    //   border-bottom-color: $color-black;
-    //   cursor: default;
-    // }
   }
-  
