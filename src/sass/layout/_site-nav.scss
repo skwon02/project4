@@ -6,7 +6,7 @@ nav{
 }
 
 .site-nav {
-
+ 
   >button {
 
     // Effects for viewports LESS THAN 600px wide
@@ -30,17 +30,17 @@ nav{
       display: none;
     }
   }
-
     background-color: $color-black;
-  
+
     ul {
         display: flex;
         align-items: center;
         justify-content: center;
     }
-  
+    .site-name{
+      display: none;
+    }
     li {
-  
       +li {
         a {
           margin-left: 50px;
