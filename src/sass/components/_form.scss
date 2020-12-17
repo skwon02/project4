@@ -4,6 +4,7 @@ input {
     border: none;
     border-bottom: solid 2px black;
     background: $color-lblue;
+    margin: 1em 0;
     &:focus, &:valid {
       box-shadow: none;
       outline: none;
