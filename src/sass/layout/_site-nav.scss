@@ -1,7 +1,12 @@
+nav{
+  height: 75px;
+  button {
+    float: right;
+  }
+}
 .site-nav {
 
   >button {
-
 
     // Effects for viewports LESS THAN 600px wide
     @media (max-width: 899px) {
