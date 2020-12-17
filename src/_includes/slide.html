@@ -1,0 +1,10 @@
+{% for slide in siteData.slides %}
+<li class="slide">
+  <figure>
+    <img src="{{ slide.img }}" alt="{{ slide.alt }}">
+    <figcaption>
+      {{ slide.title }}
+    </figcaption>
+  </figure>
+</li>
+{% endfor %}

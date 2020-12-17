@@ -1,0 +1,112 @@
+.alt1-styles {
+    background-color: #444;
+    padding: 36px;
+    position: relative;
+  
+    figure {
+      margin: 0 auto;
+      position: relative;
+      text-align: center;
+  
+      img {
+        height: 580px;
+        object-fit: contain;
+        width: 100%;
+      }
+    }
+  
+    figcaption {
+      color: white;
+      font-size: 1.2em;
+      top: -30px;
+      position: absolute;
+      width: 100%;
+    }
+  
+    .button-play-pause {
+      height: 80px;
+      right: 0;
+      bottom: 0;
+      width: 80px;
+      z-index: 10;
+    }
+  
+    .button-prev,
+    .button-next {
+      bottom: 0;
+      height: 100%;
+      width: 64px;
+  
+      &:hover,
+      &:focus {
+        background-color: rgba(black, 50%);
+      }
+    }
+  
+    .button-prev {
+      left: 0;
+    }
+  
+    .button-next {
+      right: 0;
+    }
+  
+    .slideshow-actions {
+      button {
+        opacity: 0.18;
+        padding: 20px;
+        position: absolute;
+        transition: all 300ms;
+  
+        &:hover,
+        &:focus {
+          opacity: 0.65;
+        }
+      }
+  
+      svg {
+        fill: white;
+        height: 100%;
+        width: 100%;
+      }
+    }
+  
+    .slideshow-nav {
+      margin: auto;
+      position: absolute;
+      right: 0;
+      bottom: 48px;
+      left: 0;
+      width: 50%;
+  
+      ol {
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+      }
+  
+      li {
+        &[aria-current=true] {
+          button {
+            cursor: default;
+            opacity: 0.92;
+          }
+        }
+      }
+  
+      button {
+        background-color: white;
+        border-radius: 50%;
+        opacity: 0.64;
+        transition: all 300ms;
+        height: 28px;
+        width: 28px;
+  
+        &:hover,
+        &:focus {
+          opacity: 1;
+        }
+      }
+    }
+  }
+  
