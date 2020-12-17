@@ -1,5 +1,34 @@
 {
     "items": [{
-        "text":
-    }]
+        "class": "Six Levels of Ballet begin for dancers ages 6-9 years, addressing basic traveling patterns and fundamental positions and movements. Dancers continue to learn more complex movement in Level 2, and by Level 3 accelerate that learning and meet twice weekly. Precision and intensity build up until our dancers approach our most advanced Level 6, for dancers with substantial experience and a desire to take their education to a a pre-Professional level."
+        },
+        {
+            "class":"Pre-Pointe is reserved for dancers who have reached Level 3 Ballet who seek the conditioning necessary for future Pointe work. Two Levels of Pointe are for beginner and intermediate level Pointe dancers, respectively, assigned based on ballet technique level."
+        },
+        {
+            "class":"Six Levels of Modern begin for new modern dancers ages 6-9 with basic technique. Dancers progress to Level 2 with additional ballet and modern dance experience, focusing on developing more lyrical patterns. Level 3 dancers begin learning at an accelerated rate, with more complex movements & various modern styles meeting twice weekly. Teenage students with a firm grasp of modern concepts and vocabulary will progress to Levels 4 and above, reaching Level 6 to learn increasingly advanced level terminology and complex technicality."
+        },
+        {
+            "class":"Tap is available for new tappers ages 4-5 up through the most advanced tappers in Level 3. Tap students will advance through progressing rhythm, motor, and technical skill."
+        },
+        {
+            "class":"For students in Level 2 and beyond interested in learning about a variety of age-appropriate hip hop rhythms and styles.Morton Street now offers two Hip Hop classes for younger dancers 4-5 years and 6-7 years, respectively. Simultaneous enrollment in Ballet is required
+            
+            for all Hip Hop dancers,
+            
+            regardless of level."
+        },
+        {
+            "class":"Two Levels of Jazz are available to dancers in Level 2 and beyond, seeking fun, fast-paced movement, jumps, leaps, turns, and a variety of style."
+        },
+        {
+            "class":"Open to dancers ages 8 and older, this class is a blend of traditional African dance and Dunham Technique. Dunham merges the subtleties of African and Caribbean movement patterns with the fundamentals of ballet and modern technique: a fun class for all levels!"
+        },
+        {
+            "class":"Creative Movement:For young students ages 3-5.  This class will develop skill in rhythm, balance, elemental patterning, etc. PreDance: For 4-5 year olds who have mastered the concepts introduced in Creative Movement. This class introduces ballet and modern dance fundamentals."
+        },
+        {
+            "class":"Designed for students, ages 8 and over in Level 2 and above, with a desire to dance and learn, at an accelerated pace,repertory material, which is reserved and often repeated as it would be the case in a professional company.Participation in Repertory may afford additional opportunities to perform during the year.  Students must audition for Repertory each season, and will be placed, if accepted, in the appropriate Repertory level."
+        }
+    ]
 }
