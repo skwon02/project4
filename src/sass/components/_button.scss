@@ -16,18 +16,19 @@
     border-radius: 60px;
     color: white;
     font-size: 1em;
-    padding: 2% 5%;
-    margin: 1%;
+    padding: 12px 30px;
+    margin: 10px 10px 10px 0;
     transition: all 300ms ease-in-out;
     &:hover, &:focus{
         background: white;
         color: black;
     }
 }
-.lmore-btn {
-    display: flex;
+#lmore-btn {
     justify-content: flex-start;
     width: 80%;
+    border: none;
+    padding: 0;
 }   
 .button-submit {
     border: 1px solid black;
@@ -35,7 +36,7 @@
     border-radius: 60px;
     color: black;
     font-size: 1em;
-    padding: 2% 5%;
+    padding: 12px 30px;
     transition: all 300ms ease-in-out;
     &:hover, &:focus{
         background: black;
