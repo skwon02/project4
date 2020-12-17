@@ -1,17 +1,16 @@
-body{
-    background-color: black;
-    .error{
+  .error{
         display: flex;
+        flex-wrap: wrap;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         height: 100%;
-        padding-top: 30%;
+        padding: 20%;
+        
         h2, h3, p{
             text-align: center;
-            width: 80%;
+            // width: 80%;
             color: white;
-            display: block;
+            // display: block;
         }
     }
-}
