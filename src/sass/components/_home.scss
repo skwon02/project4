@@ -25,8 +25,10 @@
         border: 1.5px solid black;
         padding: 3em 0 4em 0;
         h2, p, button {
-            width: 80%;
             display: block;
+        }
+        h2, p {
+            width: 80%;
         }
     }
     img{
@@ -48,7 +50,6 @@
 .register{
     width: 100%;
     background-color: $color-lgreen;
-    border: 1.5px solid black;
     padding: 10%;
     h2{
         text-align: center;
@@ -67,7 +68,8 @@
 
 .js-accordion{
     div{
-        border-width: 2px 0 0 0;
+        border: solid black;
+        border-width: 2px 0;
     }
 }
 
