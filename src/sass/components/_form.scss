@@ -17,7 +17,16 @@ input {
       }
     }
   }
-
+  .u-sr-only {
+    border: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+    margin: -1px;
+    padding: 0;
+    position: absolute !important;
+    height: 1px;
+    width: 1px;
+  }
 
   @media (min-width: 900px) {
   input{
@@ -26,5 +35,8 @@ input {
   }
   input:not(#message) {
     width: 47%;
+  }
+  #message{
+    width: 90.6%;
   }
 }
