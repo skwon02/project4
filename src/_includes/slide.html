@@ -1,11 +1,9 @@
 {% for slide in testimonials.slides %}
 <li class="slide">
-  <figure>
     <!-- <img src="{{ slide.img }}" alt="{{ slide.alt }}"> -->
     <figcaption>
       {{ slide.text }}
       {{ slide.cite }}
     </figcaption>
-  </figure>
 </li>
 {% endfor %}
