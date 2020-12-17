@@ -1,3 +1,10 @@
 body{
     background-color: black;
+    .error{
+        display: flex;
+        flex-flow: wrap;
+        h2, p{
+            color: white;
+        }
+    }
 }
