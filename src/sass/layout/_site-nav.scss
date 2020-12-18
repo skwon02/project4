@@ -35,10 +35,8 @@ nav{
     ul {
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: center;  
     }
-    
-  
     a {
       color: $color-white;
       display: block;
@@ -50,9 +48,10 @@ nav{
   
       &:hover,
       &:focus {
-        color: yellow;
+        color: red;
       }
     }
+  
   }
 
   @media (max-width: 899px) {
