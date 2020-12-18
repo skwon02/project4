@@ -67,8 +67,11 @@
             border: solid black;
             border-width: 2px 0;
         }
-        l:first-child{
-
+        div:first-child{
+            border-top: 4px solid black;
+        }
+        div:last-child{
+            border-bottom: 4px solid black;
         }
     }
 }
