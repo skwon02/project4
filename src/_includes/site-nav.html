@@ -7,10 +7,10 @@
     </span>
   </button>
 
-
+  <a class="site-name" href="/">Morton Street Dance Center</a>
 
   <ul id="site-menu" class="u-list-reset">
-    <a class="site-name" href="/">Morton Street Dance Center</a>
+
     {% assign nav = collections.nav | sortByPageOrder %}
     {% for item in nav %}
     <li{% if page.url == item.url %} aria-current="page" {% endif %}>
