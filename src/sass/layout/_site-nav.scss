@@ -2,6 +2,10 @@ nav{
   height: 75px;
   button {
     float: right;
+
+  }
+  #hamburger{
+    padding: 18px;
   }
 }
 
@@ -59,7 +63,12 @@ nav{
 
 
   @media (max-width: 899px) {
+    .site-nav ul {
+      justify-content: flex-start;
+    }
     ul .site-name{
       color: white;
+
     }
   }
+
