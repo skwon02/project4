@@ -18,7 +18,7 @@ nav{
       }
 
       // Do not display the menu when the button has NOT been clicked
-      &[aria-expanded="false"]+ul {
+      &[aria-expanded="false"]+ul li {
         display: none;
       }
     }
@@ -51,10 +51,8 @@ nav{
         color: red;
       }
     }
-    #site-menu li:nth-child(2) {
+    .site-name {
       width: 40%;
-    }
-    li:first-of-type > a:nth-child(1) {
       font-family: $font-mono;
    }
   }
@@ -63,10 +61,5 @@ nav{
   @media (max-width: 899px) {
     ul .site-name{
       color: white;
-    }
-  }
-  @media (min-width: 900px) {
-    ul .site-name{
-      display: none;
     }
   }
