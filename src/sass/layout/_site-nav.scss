@@ -51,7 +51,7 @@ nav{
         color: red;
       }
     }
-    ul:first-of-type > li:nth-child(1) {
+    li:first-of-type > a:nth-child(1) {
       font-family: $font-mono;
    }
   }
