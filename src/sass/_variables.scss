@@ -1,7 +1,4 @@
 // Add your variables for colors, fonts, etc. here
-$color-black:black;
-$color-white: white;
-
 $color-lblue: #3275E1;
 $color-dblue: #142659;
 $color-lgreen: #009776;
@@ -9,8 +6,8 @@ $color-dgreen: #265250;
 $color-red: #ED494A;
 
 
-$color-text-body: $color-black;
-$color-text-link: $color-white;
+$color-text-body: black;
+$color-text-link: white;
 $color-text-link-visited: $color-text-link;
 
 $font-body: "Space Grotesk", sans-serif;
