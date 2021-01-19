@@ -1,1 +1,41 @@
-.site-footer {}
+.site-footer {
+    background-color: black;
+    color: white;
+    padding: 3em;
+
+    ul {
+        padding: 0;
+        li {
+            list-style: none;
+            margin: 0;
+            a {
+                color: white;
+            }
+        }
+    }
+}
+
+
+
+@media (min-width:900px) {
+    .site-footer{
+        display: flex;
+        flex-flow: wrap;
+        div{
+            width: 70%;
+            display: flex;
+            flex-flow: wrap;
+        }
+        h2 {
+            width: 30%;
+            padding-right: 110px;
+        } 
+        
+        ul:not(#tel){
+            width:33.3%;
+        }
+        p {
+            width: 100%;
+        }
+    }
+}

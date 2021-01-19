@@ -1,0 +1,132 @@
+.container {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+}
+.video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.h_about{
+    display: flex;
+    flex-flow: wrap;
+    div{   
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        background-color: $color-lblue;
+        width: 100%;
+        display: flex;
+        flex-flow: wrap;
+        border: 1.5px solid black;
+        padding: 3em 0 4em 0;
+        h2, p, button {
+            display: block;
+        }
+        h2, p {
+            width: 80%;
+        }
+    }
+    img{
+        display: block;
+        border: 1px solid black;
+        width: 100%;
+        padding: 0;
+    }
+}
+
+.offerings{
+    margin:0;
+    background-color: $color-lgreen;
+    border: 1.5px solid black;
+    padding: 10%;
+    text-align: center;
+}
+
+.register{
+    width: 100%;
+    background-color: $color-lgreen;
+    border: 1.5px solid black;
+    padding: 10%;
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    h2, .register_btn{
+        text-align: center;
+    }
+    .js-accordion{
+        width: 100%;
+        margin-bottom: 1em;
+        div{
+            border: solid black;
+            border-width: 2px 0;
+        }
+        div:first-child{
+            border-top: 4px solid black;
+        }
+        div:last-child{
+            border-bottom: 4px solid black;
+        }
+    }
+}
+
+.u-button-reset {
+    background: transparent;
+    border-width: 2px 0 0 0;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    // padding: 1em 0;
+    text-align: inherit;
+  }
+
+button svg {
+    height: 1em;
+  }
+
+[aria-expanded="true"] .vert {
+    display: none;
+  }
+
+.contact{
+    width: 100%;
+    background-color: $color-lblue;
+    border: 1.5px solid black;
+    padding: 10%;
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    iframe{
+        width: 100%;
+        height: 300px;
+        border: 1px solid black;
+        border-radius: 20px;
+
+    }
+    form{
+        width: 100%;
+        margin: 20px 0;
+    }
+}
+
+
+@media (min-width: 900px){
+    .h_about{
+        div, img{
+            width: 50%;
+        }
+    }
+    .register_btn{
+        display: inline-flex;
+    }
+}

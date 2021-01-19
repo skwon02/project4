@@ -1,0 +1,14 @@
+  .error{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        padding: 20%;
+        
+        h2, p{
+            text-align: center;
+            color: white;
+        }
+    }

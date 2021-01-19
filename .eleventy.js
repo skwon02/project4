@@ -3,6 +3,7 @@
 module.exports = function(eleventyConfig) {
   eleventyConfig.addWatchTarget("./src/css/");
   eleventyConfig.setTemplateFormats(["css", "html", "liquid"]);
+  eleventyConfig.addPassthroughCopy("./src/js/");
 
   function sortByPageOrder(values) {
     return values.slice().sort((a, b) => a.data.order - b.data.order);

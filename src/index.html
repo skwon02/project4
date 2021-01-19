@@ -1,8 +1,52 @@
 ---
 layout: default.html
-pageTitle: Home
-tags: nav
+pageTitle: Morton Street Dance Center
+<!-- tags: nav -->
 order: 1
 ---
 
-<p>Add the HTML for your homepage here.</p>
+<div class="container">
+    <iframe src="https://www.youtube.com/embed/z_jefhcVRAk" frameborder="0" allowfullscreen class="video"></iframe>
+</div>
+
+<section class="h_about">
+    <div>
+        <h2>About MSDC</h2>
+        <p>Originally established in 1992, Morton Street Dance Center is one of Baltimore's best and most comprehensive dance schools.</p>
+        <div id="lmore-btn">
+            <button class="button-reset button" type="button" onclick="window.location.href='/about';">Learn More</button>
+        </div>
+        
+    </div>
+    <img class="about" src="https://cdn.glitch.com/82a46cd3-6336-42f9-9881-2be3f5a54a0d%2Fabout.png?v=1605143407347" alt="">
+</section>
+<section>
+    {% include grid.html %}
+</section>
+<section class="register">
+    {% include accordion.html %}
+</section>
+<section class="contact">
+    <h2>Get In Touch</h2>
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3086.1248737884016!2d-76.6446764842207!3d39.330756228887225!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c81b2abe742d9b%3A0xa8f579926b1381e!2sMorton%20Street%20Dance%20Center!5e0!3m2!1sen!2sus!4v1605202579180!5m2!1sen!2sus"
+        frameborder="0" allowfullscreen="" aria-hidden="false"
+        tabindex="0"></iframe>
+    <form>
+        <label for="fname" class="u-sr-only">Your first name</label>
+        <input placeholder="First name" type="text" class="fname" id="fname" name="fname">
+
+        <label for="lname" class="u-sr-only">Your last name</label>
+        <input placeholder="Last name" type="text" class="lname" id="lname" name="lname">
+
+        <label for="email" class="u-sr-only">Your email</label>
+        <input placeholder="Email" type="email" id="email" name="email">
+
+        <label for="phone" class="u-sr-only">Your phone number</label>
+        <input placeholder="Phone" type="text" id="phone" name="phone">
+
+        <label for="message" class="u-sr-only">Type your message here</label>
+        <input placeholder="Type your message here" type="text" id="message" name="message">
+    </form>
+    <button class="button-reset button-submit" type="submit" value="Submit">Submit</button>
+</section>

@@ -1,1 +1,81 @@
-.site-nav {}
+nav{
+  padding: 0 10px;
+  height: 75px;
+  button {
+    float: right;
+
+  }
+  #hamburger{
+    padding: 18px;
+  }
+}
+
+.site-nav {
+ 
+  >button {
+
+    // Effects for viewports LESS THAN 600px wide
+    @media (max-width: 899px) {
+
+      // If the JS does not load, do not display the button
+      &:not([aria-expanded]) {
+        display: none;
+      }
+
+      // Do not display the menu when the button has NOT been clicked
+      &[aria-expanded="false"]+ul li {
+        display: none;
+      }
+    }
+
+    // Effects for viewports 600px or MORE
+    @media (min-width: 900px) {
+     
+      // Do not display the button at this width
+      display: none;
+    }
+  }
+    background-color: black;
+
+    ul {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        li{
+          margin-left: 28px;
+        }
+    }
+    a {
+      color: white;
+      display: block;
+      font-family: $font-body;
+      font-size: 16px;
+      font-weight: 700;
+      text-decoration: none;
+  
+      &:hover,
+      &:focus {
+        color: red;
+      }
+    }
+    .site-name {
+      width: 40%;
+      font-family: $font-mono;
+   }
+  }
+
+
+  @media (max-width: 899px) {
+    .site-nav ul {
+      justify-content: flex-start;
+    }
+    ul .site-name{
+      color: white;
+      width: 100%;
+    }
+    .site-nav .site-name{
+    }
+  }
+

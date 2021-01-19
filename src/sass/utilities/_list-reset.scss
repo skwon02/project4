@@ -1,4 +1,15 @@
 // Removes the default bullets and padding from a list
+.u-button-reset {
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  padding: 0;
+  text-align: inherit;
+}
+
 .u-list-reset {
   list-style: none;
   margin-top: 0;
